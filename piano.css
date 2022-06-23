@@ -1,0 +1,61 @@
+body,html {
+    background: #a7a7a7;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+
+.piano-keyboard {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: nowrap;
+    height: 100%;
+    padding: 10px;
+
+}
+
+.piano-button {
+    background: #E7E7E7;
+    background: -moz-linear-gradient(top, #E7E7E7 0%, #FFFFFF 14%, #E4E4E4 100%);
+    background: -webkit-linear-gradient(top, #E7E7E7 0%, #FFFFFF 14%, #E4E4E4 100%);
+    background: linear-gradient(to bottom, #E7E7E7 0%, #FFFFFF 14%, #E4E4E4 100%);
+    border: black solid 1px;
+    height: 400px;
+    width: 100px;
+    position: relative;
+    border-radius: 0px 0 3px 3px;
+
+}
+.piano-button-pressed{
+    background: #E7E7E7;
+    background: -moz-linear-gradient(top, #E7E7E7 0%, #FFFFFF 14%, #E4E4E4 100%);
+    background: -webkit-linear-gradient(top, #E7E7E7 0%, #FFFFFF 14%, #E4E4E4 100%);
+    background: linear-gradient(to bottom, #E7E7E7 0%, #FFFFFF 14%, #E4E4E4 100%);
+    -webkit-box-shadow: inset 28px -26px 50px -13px rgba(0,0,0,0.39);
+    box-shadow: inset 28px -26px 50px -13px rgba(0,0,0,0.39);
+}
+.piano--black-button{
+    border: #808080 solid 4px;
+    height: 200px;
+    width: 50px;
+    position: absolute;
+    z-index: 1;
+    right: -29px;
+    border-radius: 0px 0 3px 3px;
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 0%, #464646 20%, #000000 100%);
+    background: -webkit-linear-gradient(top, #000000 0%, #464646 20%, #000000 100%);
+    background: linear-gradient(to bottom, #000000 0%, #464646 20%, #000000 100%);
+}
+.piano--black-button-pressed{
+
+    background: #000000;
+    background: -moz-linear-gradient(top, #000000 0%, #464646 89%, #000000 100%);
+    background: -webkit-linear-gradient(top, #000000 0%, #464646 89%, #000000 100%);
+    background: linear-gradient(to bottom, #000000 0%, #464646 89%, #000000 100%);
+
+}
